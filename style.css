@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+    overflow-x: hidd
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: #fff;
+    display: flex;   
+    justify-content: space-evenly;
+    width: 100vw;
+}
+#slider{
+    width: 100%;
+    height: 100vh;
+}
+
+#slider>img{
+    height: 800px;
+}
+.nav-logo{
+    height: 100px;
+    width: 100px;
+}
+.logo{
+    background-image: url(./-2292992631.webp);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.BORDER{
+    border: 2PX transparent;
+}
+.BORDER :hover{
+    border: 2px solid #fff;
+}
+/** box2 **/
+.first{
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 4px;
+    
+}
+.sec{
+    color: beige;
+
+}
+.add-icon{
+    display: flex;
+    text-align: center;
+    margin-left: 25px;
+    
+}
+/**box3**/
+.nav-sarch{
+justify-content: space-evenly;
+display: flex;
+background-color: pink;
+width: 620px;
+height: 30px;
+border-radius: 4px;
+margin-top: 13px;
+    
+}
+.search-select{
+    background-color: white;
+    width: 50px;
+    text-align: center;
+   border-top-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background-color: chocolate;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: black;
+}
+.nav-sarch:hover{
+    border: 2px solid chocolate;
+}
+/**box4**/
+span{
+font-size: 0.7rem;
+
+}
+.red{
+    margin-top: 15px;
+}
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/**box6**/
+.nav-card i{
+    font-size: 35px;
+    margin-top: 15px;
+}
+/**penal**/
+.penal{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.penal-ops p{
+    display: inline;
+    margin-left: 14px;
+
+}
+.penal-ops p:hover{
+    border: 1px solid #fff;
+}
+
+.penal-ops{
+        width: 70%;
+        font-size: 0.85rem;
+}
+.penal-deals{
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+.penal-deals:hover{
+border: 1px solid #fff;
+}
+/**hero section**/
+.hero-section{
+    background-image: url(./section\ .1.jpg);
+    height: 100vh;
+    width: 100vw;
+background-position: cover;
+background-repeat: no-repeat;
+background-size: cover;   
+justify-content: center;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    bottom: 25px;
+    position: relative;
+    margin-top: 250px;
+
+}
+.hero-msg a {
+       color: #007185;
+}
+/**shoopin-section**/
+.shooping-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 300px;
+    width: 20%;
+    background-color: white;
+}
+.box-img{
+    height: 255px;
+    width: 270px;
+    background-size: cover;
+    background-position: center;
+}
+.box-img2{
+    height: 255px;
+    width: 270px;
+    background-size: cover;
+    background-position: center;
+}
+.box-img3{
+    height: 255px;
+    width: 270px;
+    background-size: cover;
+    background-position: center;
+}
+.box-img4{
+    height: 255px;
+    width: 270px;
+    background-size: cover;
+    background-position: center;
+
+}
+/**shopping-center1**/
+.shopping-center1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    height: 300px;
+}
+.box{
+    height: 300px;
+    width: 20%;
+    background-color: white;
+}
+.box5{
+    height: 255px;
+    width: 270px;
+    background-size: cover;
+    background-position: center;
+}
+.box6{
+    height: 255px;
+    width: 270px;
+    background-size: cover;
+    background-position: center;
+}
+.box7{
+    height: 255px;
+    width: 270px;
+    background-size: cover;
+    background-position: center;
+}
+.box8{
+    height: 255px;
+    width: 270px;
+    background-size: cover;
+    background-position: center;
+}
+.box9{
+    height: 255px;
+    width: 270px;
+    background-size: cover;
+    background-position: center;
+}
+/**last-bottom**/
+.last-bottom{
+    height: 80px;
+    width: 100vw;
+    color: black;
+    background-color: gray;
+    justify-content: center;
+}
+.last-bottom h2{
+margin-top: 28px;
+}
+
+.amir2{
+    color: black;
+    
+}
+.green{
+    margin: top 55px;;
+}
+.amir3{
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    padding-left: 25px;  
+}
+
+.location1{
+    height: 300px;
+    width: 1600px;
+}
